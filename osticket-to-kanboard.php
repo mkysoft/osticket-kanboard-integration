@@ -32,6 +32,10 @@ set_time_limit(30);
 
 $tasks = call_ot($config_ot['tasks']);
 
+if ($debug) {
+    print_r("Ticket count on Osticket:" . count($tasks));
+}
+
 foreach ($tasks as $task) {
 
     //Not process task without ticket
