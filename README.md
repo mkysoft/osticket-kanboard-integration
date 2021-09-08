@@ -15,7 +15,8 @@ I am also adding this changes to osTicket_API folder.
 **Installation**
 1. Make improvement on osTicket for API.
 2. Copy osticket-to-kanboard.php script to your server.
-3. Add cron for scheduling.
+3. Change configuration parameters in osticket-to-kanboard.php file.   
+4. Add cron for scheduling.
 
 _For adding cron:_ 
 
